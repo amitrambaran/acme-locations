@@ -4,7 +4,7 @@ import LocationCard from "./LocationCard";
 function CardContainer(props) {
   //show error on page if fetch was unsuccessful
   if (props.locationData.length === 0) {
-    return <p>Error fetching data from API</p>;
+    return <p>Loading...</p>;
   }
   //populate LocationCard components with data from API
   return props.locationData.map((locationData) => {
