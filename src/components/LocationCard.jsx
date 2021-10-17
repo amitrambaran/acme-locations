@@ -8,14 +8,10 @@ function LocationCard(props) {
 
   //handle opening of modal and increment + send view count
   function openModal(id) {
-    incrementViews();
-    props.showModalFunction(id, views);
+    const updatedViews = views + 1;
+    setViews(updatedViews);
+    props.showModalFunction(id, updatedViews);
   }
-
-  function incrementViews() {
-    setViews(views + 1);
-  }
-
   //construct card component
   return (
     <Card onClick={() => openModal(props.locationData.id)}>

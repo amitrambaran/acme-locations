@@ -12,22 +12,22 @@ import {
 } from "./Stylesheet";
 
 //construct modal with click events to close both on button clicks + clicking outside modal
-function Modal(props) {
+function Modal({ hideModalFunction, modalData }) {
   return (
-    <ModalContainer onClick={props.hideModalFunction}>
+    <ModalContainer onClick={hideModalFunction}>
       <ModalWindow onClick={(e) => e.stopPropagation()}>
         <ModalTitle>
-          {props.modalData.locationData.name}
-          <ModalXButton onClick={props.hideModalFunction}>
+          {modalData.locationData.name}
+          <ModalXButton onClick={hideModalFunction}>
             <img src={CloseSvg} alt="close svg" />
           </ModalXButton>
         </ModalTitle>
-        <LocationInfo locationData={props.modalData} />
+        <LocationInfo locationData={modalData} />
         <ModalSubtitle>Description</ModalSubtitle>
         <ModalDescription>
-          {props.modalData.locationData.description}
+          {modalData.locationData.description}
         </ModalDescription>
-        <ModalCTA onClick={props.hideModalFunction}>Done</ModalCTA>
+        <ModalCTA onClick={hideModalFunction}>Done</ModalCTA>
       </ModalWindow>
     </ModalContainer>
   );
