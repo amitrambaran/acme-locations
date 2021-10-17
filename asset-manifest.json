@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/acme-locations/static/css/main.b32984ca.chunk.css",
-    "main.js": "/acme-locations/static/js/main.7b5ca716.chunk.js",
-    "main.js.map": "/acme-locations/static/js/main.7b5ca716.chunk.js.map",
+    "main.css": "/acme-locations/static/css/main.c8441ec5.chunk.css",
+    "main.js": "/acme-locations/static/js/main.aaf703c4.chunk.js",
+    "main.js.map": "/acme-locations/static/js/main.aaf703c4.chunk.js.map",
     "runtime-main.js": "/acme-locations/static/js/runtime-main.dd513eba.js",
     "runtime-main.js.map": "/acme-locations/static/js/runtime-main.dd513eba.js.map",
     "static/js/2.99098f3f.chunk.js": "/acme-locations/static/js/2.99098f3f.chunk.js",
     "static/js/2.99098f3f.chunk.js.map": "/acme-locations/static/js/2.99098f3f.chunk.js.map",
     "index.html": "/acme-locations/index.html",
-    "static/css/main.b32984ca.chunk.css.map": "/acme-locations/static/css/main.b32984ca.chunk.css.map",
+    "static/css/main.c8441ec5.chunk.css.map": "/acme-locations/static/css/main.c8441ec5.chunk.css.map",
     "static/js/2.99098f3f.chunk.js.LICENSE.txt": "/acme-locations/static/js/2.99098f3f.chunk.js.LICENSE.txt",
     "static/media/Close.924f720d.svg": "/acme-locations/static/media/Close.924f720d.svg",
     "static/media/Edit.d41e05b4.svg": "/acme-locations/static/media/Edit.d41e05b4.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.dd513eba.js",
     "static/js/2.99098f3f.chunk.js",
-    "static/css/main.b32984ca.chunk.css",
-    "static/js/main.7b5ca716.chunk.js"
+    "static/css/main.c8441ec5.chunk.css",
+    "static/js/main.aaf703c4.chunk.js"
   ]
 }
