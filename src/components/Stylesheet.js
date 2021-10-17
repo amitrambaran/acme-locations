@@ -141,6 +141,9 @@ export const ModalCTA = styled.button`
   background-color: RGB(55, 178, 77);
   float: right;
   cursor: pointer;
+  &:hover {
+    background-color: RGB(55, 160, 77);
+  }
 `;
 
 export const ModalXButton = styled.button`
