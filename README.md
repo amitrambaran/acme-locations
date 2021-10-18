@@ -24,7 +24,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Improvements moving forward
 
-- Using a store of some sort - whether it be `Redux`, a `useReducer()` hook or even the `Context API` would eliminate having to pass props two levels deep. For the current functionality of this app, standard prop passing is fine and will work for large amounts of data. However, if more features were to be implementedfor future use, a general store would be easier to follow.
+- Using a store of some sort - whether it be `Redux`, a `useReducer()` hook or even the `Context API` would eliminate having to pass props two levels deep. For the current functionality of this app, standard prop passing is fine and will work for large amounts of data. However, if more features were to be implemented for future use, a general store would be easier to follow.
   
 - Improving accessibility - as I am very passionate about everyone being able to have a pleasant experience on the web, accessibility of the app could be improved. Although the modal is fully accessible and can be closed by clicking on the dark area outside the window, I would allow users to open cards via keyboard actions and have CSS related to hovering activate accordingly (eg. hitting 'Enter' to open a focused card)
   
