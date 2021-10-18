@@ -26,7 +26,9 @@ function LocationInfo(props) {
       </CardListItem>
       <CardListItem>
         <CardListIcon src={ViewsSvg} alt="views svg" />
-        <CardListText>{props.views} Views</CardListText>
+        <CardListText>
+          {props.views} View{props.views !== 1 && "s"}
+        </CardListText>
       </CardListItem>
     </CardList>
   );
