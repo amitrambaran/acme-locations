@@ -3,7 +3,7 @@ import { Card, CardTitle, EditIcon, EditIconContainer } from "./Stylesheet";
 import EditSvg from "../assets/Edit.svg";
 import LocationInfo from "./LocationInfo";
 
-function LocationCard({ id, locationData, showModalHandler }) {
+function LocationCard({ locationData, showModalHandler }) {
   const [views, setViews] = useState(0);
 
   //handle opening of modal and increment + send view count

@@ -11,7 +11,6 @@ function CardContainer(props) {
     return (
       <LocationCard
         key={locationData.id}
-        id={locationData.id}
         locationData={locationData}
         showModalHandler={props.showModalHandler}
       />
