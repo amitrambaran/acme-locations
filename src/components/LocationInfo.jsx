@@ -11,23 +11,23 @@ import {
 } from "./Stylesheet";
 
 //construct LocationInfo list (used in LocationCard and Modal)
-function LocationInfo(props) {
+function LocationInfo({ locationData, views }) {
   return (
     <CardList>
       <CardListItem>
         <CardListIcon src={UsersSvg} alt="users svg" />
-        <CardListText>{props.locationData.userCount} Users</CardListText>
+        <CardListText>{locationData.userCount} Users</CardListText>
       </CardListItem>
       <CardListItem>
         <CardListIcon src={TimezoneSvg} alt="timezone svg" />
         <CardListText>
-          {moment(props.locationData.createdAt).format("hh:mma ([GMT]Z)")}
+          {moment(locationData.createdAt).format("hh:mma ([GMT]Z)")}
         </CardListText>
       </CardListItem>
       <CardListItem>
         <CardListIcon src={ViewsSvg} alt="views svg" />
         <CardListText>
-          {props.views} View{props.views !== 1 && "s"}
+          {views} View{views !== 1 && "s"}
         </CardListText>
       </CardListItem>
     </CardList>

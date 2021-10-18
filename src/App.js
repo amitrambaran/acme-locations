@@ -48,7 +48,7 @@ function App() {
       <Header />
       <CardWrapper>
         <CardContainer
-          showModalFunction={showModal}
+          showModalHandler={showModal}
           locationData={locationData}
         />
       </CardWrapper>

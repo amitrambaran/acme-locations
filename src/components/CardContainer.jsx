@@ -13,7 +13,7 @@ function CardContainer(props) {
         key={locationData.id}
         id={locationData.id}
         locationData={locationData}
-        showModalFunction={props.showModalFunction}
+        showModalHandler={props.showModalHandler}
       />
     );
   });
