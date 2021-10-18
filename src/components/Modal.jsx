@@ -22,7 +22,10 @@ function Modal({ hideModalFunction, modalData }) {
             <img src={CloseSvg} alt="close svg" />
           </ModalXButton>
         </ModalTitle>
-        <LocationInfo locationData={modalData} />
+        <LocationInfo
+          locationData={modalData.locationData}
+          views={modalData.views}
+        />
         <ModalSubtitle>Description</ModalSubtitle>
         <ModalDescription>
           {modalData.locationData.description}

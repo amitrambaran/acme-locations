@@ -11,7 +11,7 @@ const fetchUrl = "https://6033c4d8843b15001793194e.mockapi.io/api/locations";
 
 function App() {
   const [modalState, setModalState] = useState(false);
-  const [modalData, setModalData] = useState({ data: [], views: 0 });
+  const [modalData, setModalData] = useState({ locationData: [], views: 0 });
   const [locationData, setLocationData] = useState([]);
 
   //fetch API data asyncrhonously, throw error if there is a network/fetch issue
